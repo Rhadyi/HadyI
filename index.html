@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Kepler Event Registration Form</title>
+	<meta charset="UTF-8">
+	<meta placeholder="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body{
+			font-family:'Roboto', sans-serif;
+            background-image:url("https://wallpapercave.com/wp/wp2993713.png");
+			margin: 0;
+        }
+		*{
+		  text-decoration:none;
+		  list-style:none;
+		  box-sizing: border-box;
+		}
+	        .survey-box{
+            width:400px; 
+            margin: 0 auto; 
+            border: 6px solid black;
+            padding: 20px;
+            background-color: orange; 
+			font-family:'Roboto', sans-serif;
+			box-shadow: 10px 10px 5px grey;
+			}
+		button{
+			background-color:blue;
+			width: 100px;
+			height: 30px;
+			font-family:Consolas;
+			border-radius: 7px;
+			box-shadow: 5px 5px 5px gray;
+			font-size: 20px;
+			color: white;
+		}
+
+
+		label.logo {
+		  color: white;
+		  font-size: 35px;
+		  font-weight: bold;
+		  margin-left: 20px; 
+		}
+
+		        .navigation-bar {
+          grid-column: 1 / span 2; 
+          grid-row: 1; 
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          border-bottom: 1px;
+          padding: 0.5rem 1rem;
+          background-color: #f2f2f2;
+            }
+
+        .navigation-bar ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+        }
+
+      .navigation-bar li {
+        display: inline-block;
+        margin-right: 1rem;
+        }
+
+      .navigation-bar li:last-child {
+        margin-right: 0;
+      }
+
+      .navigation-bar a {
+        text-decoration: none;
+        color: #444;
+        font-weight: bold;
+      }
+
+    .navigation-bar a:hover {
+      text-decoration: underline;
+      }
+
+
+		input[type="text"],
+		input[type="email"],
+		input[type="tel"] {
+			width:90%;
+			height:30px;
+		}
+			textarea {
+			width: 95%; 
+			height: 100px; 
+		}
+	</style>
+</head>
+
+<body>
+	<div class="navigation-bar">
+	  <ul>
+		<li><a href="./Rhady.Gasingwa_TEC82203_Assignment_Session_8.html">Home</a></li>
+		<li><a href="./Rhady.Gasingwa_TEC82203_Assignment_Session_9.html">Contact Us</a></li>
+		<li><a href="./Rhady.Gasingwa_TEC82203_Assignment_Session_11.html">About the author</a></li>
+	  </ul>
+</div>
+    <h1 style="text-align:center; font-family:Tahoma; color: White;">Registration Form</h1>
+	<div class="survey-box">
+		<form>
+			<p>First Name: <br><input type="text" placeholder="Enter Your First Name" required></p>
+			<p>Last Name: </p><input type="text" placeholder="Enter Your Last Name" required></p>
+			<p>Email: <br><input type="email" placeholder="email" required></p>
+			<p>Phone number: <br><input type="tel" placeholder="+250*******" required></p>
+			<p>Reg No: <br><input type="text" placeholder="registration number" required></p>
+			<p>Gender: <br><input type="radio" placeholder="gender" value="male" required> Male
+			<input type="radio" placeholder="gender" value="female" required> Female
+			<input type="radio" placeholder="gender" value="other" required> Other</p>
+			<p>Event Name: <br><input type="text" placeholder="Enter the name" required></p>
+			<p>Reason/ Description: <textarea placeholder="reason" rows="3" cols="40" required></textarea></p>
+			<button>submit</button>
+		</form>
+	</div>
+</body>
+</html>
